@@ -52,7 +52,7 @@ class Treeview {
   // Public
 
   init() {
-    $(`${SELECTOR_LI}${SELECTOR_OPEN} ${SELECTOR_TREEVIEW_MENU}`).css('display', 'block')
+    $(`${SELECTOR_LI}${SELECTOR_OPEN} ${SELECTOR_TREEVIEW_MENU}${SELECTOR_OPEN}`).css('display', 'block')
     this._setupListeners()
   }
 
@@ -118,7 +118,8 @@ class Treeview {
   // Private
 
   _setupListeners() {
-    $(document).on('click', this._config.trigger, event => {
+    const elementId = this._element.attr('id') !== undefined ? `#${this._element.attr('id')}` : ''
+    $(document).on('click', `${elementId}${this._config.trigger}`, event => {
       this.toggle(event)
     })
   }

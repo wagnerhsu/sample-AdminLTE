@@ -8,9 +8,9 @@ title: Dependencies & Plugins
 AdminLTE depends on two main frameworks. The downloadable package contains both of these libraries, so you don't have to manually download them.
 {: .lead}
 
-- [Bootstrap 4](https://getbootstrap.com/)
-- [jQuery 3.3.1+](https://jquery.com/)
-- [Popper.js 1.14.7+](https://popper.js.org/)
+- [Bootstrap 4.5](https://getbootstrap.com/)
+- [jQuery 3.5.1+](https://jquery.com/)
+- [Popper.js 1.16.1+](https://popper.js.org/)
 - [All other plugins are listed below](#plugins)
 
 #### Plugins
@@ -31,12 +31,14 @@ AdminLTE makes use of the following plugins. For documentation, updates or licen
       <li><a href="https://www.chartjs.org/" rel="noopener" target="_blank">ChartJS</a></li>
       <li><a href="http://www.flotcharts.org/" rel="noopener" target="_blank">Flot</a></li>
       <li><a href="https://github.com/mariusGundersen/sparkline" rel="noopener" target="_blank">Sparkline</a></li>
+      <li><a href="https://github.com/leeoniya/uPlot/" rel="noopener" target="_blank">uPlot</a></li>
     </ul>
   </div>
   <div class="col-sm-3">
     <ul class="list-unstyled">
       <li><h4>Editors</h4></li>
       <li><a href="https://summernote.org/" rel="noopener" target="_blank">Summernote</a></li>
+      <li><a href="https://codemirror.net/" rel="noopener" target="_blank">CodeMirror</a></li>
     </ul>
   </div>
   <div class="col-sm-3">
@@ -52,6 +54,7 @@ AdminLTE makes use of the following plugins. For documentation, updates or licen
       <li><a href="https://tempusdominus.github.io/bootstrap-4/" rel="noopener" target="_blank">Tempus Dominus</a></li>
       <li><a href="https://github.com/istvan-ujjmeszaros/bootstrap-duallistbox#readme" rel="noopener" target="_blank">Bootstrap4 Duallistbox</a></li>
       <li><a href="https://github.com/Johann-S/bs-custom-file-input#readme" rel="noopener" target="_blank">bs-custom-file-input</a></li>
+      <li><a href="https://github.com/Johann-S/bs-stepper#readme" rel="noopener" target="_blank">bs-stepper</a></li>
     </ul>
   </div>
   <div class="col-sm-3">
